@@ -19,5 +19,5 @@ app.include_router(carga.router)
 
 @app.get("/")
 async def root():
-    return {"message": "Welcome to FastAPI JWT Auth Example"}
+    return {"message": "Holaaa, por ahora no hay configuración de CORS, no haga nada indebido"}
 
